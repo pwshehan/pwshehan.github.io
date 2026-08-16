@@ -3,37 +3,150 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shehan Wijethunga | Portfolio</title>
+    <title>Shehan Wijethunga | Mining Engineer &amp; Software Developer</title>
     <meta
       name="description"
-      content="Developer portfolio for Shehan Wijethunga"
+      content="Shehan Wijethunga — Mining Engineer focused on industrial automation at Bogala Graphite Lanka PLC, and a freelance software developer."
     />
     <meta name="author" content="Shehan Wijethunga" />
 
-    <meta property="og:title" content="Shehan Wijethunga | Portfolio" />
+    <meta property="og:title" content="Shehan Wijethunga | Mining Engineer & Software Developer" />
     <meta
       property="og:description"
-      content="Developer portfolio for Shehan Wijethunga"
+      content="Mining Engineer focused on industrial automation, and a freelance software developer building with Node.js, Next.js, Go, and Docker."
     />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:image"
-      content="https://lovable.dev/opengraph-image-p98pqg.png"
-    />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta
-      name="twitter:image"
-      content="https://lovable.dev/opengraph-image-p98pqg.png"
-    />
-    <script type="module" crossorigin src="/assets/index-CPCwFA0E.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BHbodq3N.css">
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/assets/style.css" />
   </head>
 
   <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#top" class="nav-brand">Shehan Wijethunga</a>
+        <div class="nav-links">
+          <a href="#mining">Mining Engineer</a>
+          <a href="#developer">Developer</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="top" class="hero container">
+        <img
+          id="hero-avatar"
+          class="hero-avatar"
+          src="/favicon.ico"
+          alt="Shehan Wijethunga"
+          width="120"
+          height="120"
+        />
+        <h1>Shehan Wijethunga</h1>
+        <p class="hero-tagline">
+          Mining Engineer by profession, software developer by passion.
+        </p>
+        <p class="hero-intro">
+          I'm a Mining Engineer working on industrial automation at Bogala
+          Graphite Lanka PLC, and a freelance software developer on the side.
+          I'm also a computer networking enthusiast — somewhere between the
+          plant floor and the command line, that's where the two meet.
+        </p>
+        <div class="hero-actions">
+          <a href="#mining" class="btn btn-primary">Mining Engineer</a>
+          <a href="#developer" class="btn btn-secondary">Software Developer</a>
+        </div>
+      </section>
+
+      <section id="mining" class="persona persona-mining container">
+        <div class="section-heading">
+          <span class="section-eyebrow">Mining Engineer</span>
+          <h2>Bogala Graphite Lanka PLC</h2>
+        </div>
+        <p class="persona-bio">
+          I'm a Mining Engineer at Bogala Graphite Lanka PLC, where I focus on
+          mining operations and industrial automation — bringing modern
+          automation and control systems into traditional mining processes.
+          I care about safe, reliable operations and the systems that keep
+          them running.
+        </p>
+        <div class="tag-list">
+          <span class="tag">Mining Operations</span>
+          <span class="tag">Industrial Automation</span>
+          <span class="tag">Process Systems</span>
+        </div>
+        <a href="mailto:shehan@gk-graphite.lk" class="btn btn-outline"
+          >shehan@gk-graphite.lk</a
+        >
+      </section>
+
+      <section class="bridge container">
+        <div class="section-heading">
+          <span class="section-eyebrow">The Overlap</span>
+          <h2>Where Industry Meets Code</h2>
+        </div>
+        <p class="persona-bio">
+          Somewhere between the plant floor and the command line, I found
+          computer networking — the thread connecting industrial control
+          systems to modern software infrastructure. It's the lens I use for
+          both careers: reliable systems, clear protocols, and things that
+          need to talk to each other correctly.
+        </p>
+        <div class="tag-list">
+          <span class="tag tag-bridge">Computer Networking</span>
+        </div>
+      </section>
+
+      <section id="developer" class="persona persona-developer container">
+        <div class="section-heading">
+          <span class="section-eyebrow">Freelance</span>
+          <h2>Software Developer</h2>
+        </div>
+        <p class="persona-bio">
+          Outside of mining, I work as a freelance software developer. I
+          build backend services, APIs, and full-stack web apps — mostly
+          with Node.js, Next.js, and Go — and I like automating deployments
+          with Docker and DevOps tooling.
+        </p>
+        <div class="tag-list">
+          <span class="tag">Node.js</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">Go</span>
+          <span class="tag">Docker</span>
+          <span class="tag">DevOps</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">CI/CD</span>
+          <span class="tag">Linux</span>
+        </div>
+        <a href="mailto:pwshehan@gmail.com" class="btn btn-outline"
+          >pwshehan@gmail.com</a
+        >
+
+        <h3 class="projects-heading">Featured Projects</h3>
+        <div id="projects-grid" class="projects-grid" aria-live="polite">
+          <p class="projects-status">Loading projects from GitHub…</p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact container">
+        <div class="section-heading">
+          <span class="section-eyebrow">Connect</span>
+          <h2>Get in Touch</h2>
+        </div>
+        <div id="social-links" class="social-links">
+          <a href="https://github.com/pwshehan" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <p>&copy; <span id="year"></span> Shehan Wijethunga. All rights reserved.</p>
+    </footer>
+
+    <script src="/assets/script.js"></script>
   </body>
 </html>
